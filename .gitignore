@@ -1,0 +1,45 @@
+# Housekeeping (same as progressive_ratio / narrative_geometry)
+*__pycache__/
+*.DS_Store
+*.ipynb_checkpoints
+.venv/
+.env
+
+# Archived / superseded work never goes to GitHub
+archive/
+
+# Data never goes to GitHub: raw recordings, caches, derived matrices.
+# Keep code, notebooks, small config and figures; keep data under data/.
+data/
+cache/
+*.h5
+*.hdf5
+*.brw
+*.bxr
+*.mcd
+*.msrd
+*.nwb
+*.nix
+*.rhd
+*.rhs
+*.nev
+*.ns[1-6]
+*.plx
+*.abf
+*.edf
+*.mat
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.zarr/
+*.dat
+*.bin
+*.raw
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.tar
+*.gz
